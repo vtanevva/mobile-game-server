@@ -7,7 +7,7 @@ const authRoutes = require('./routes/authRoutes');
 const connectDB = require('./db');
 
 const app = express();
-const port = process.env.PORT || 5173; // Update the port
+const port = process.env.PORT || 5174; // Update the port
 const mongoURI = process.env.MONGODB_URI;
 
 dotenv.config();
